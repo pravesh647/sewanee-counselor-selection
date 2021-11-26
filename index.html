@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+  <script src="index.js"></script></script>
+
+</head>
+
+<body>
+
+  <!-- 
+    2 = Shiro Burnette
+    3 = Lisa Burns
+    4 = Sarah Butler
+    5 = Jeff Heitzenrater  
+    6 = Reece Jamison
+    7 = Tim Neil
+    8 = Lateishia Spencer
+    9 = Faith Vaughn
+    10 = Nancy York
+  -->
+  
+<div id="stateSelection">
+  
+  <fieldset>
+    <legend>First Year U.S. Applicants</legend>
+
+    <select id="studentState" name="studentState" class="" required="true" >
+      <option selected="selected" disabled="disabled" value="">High School State</option>
+      <option value="6"> Alabama           </option>
+      <option value="2"> Alaska            </option>
+      <option value="2"> Arizona           </option>
+      <option value="6"> Arkansas          </option>
+      <option value="2"> California        </option>
+      <option value="1"> Colorado          </option>
+      <option value="2"> Connecticut       </option>
+      <option value="8"> Delaware          </option>
+      <option value="2"> Florida           </option>
+      <option value="GA">Georgia          </option>
+      <option value="3"> Hawaii            </option>
+      <option value="2"> Idaho             </option>
+      <option value="6"> Illinois          </option>
+      <option value="9"> Indiana           </option>
+      <option value="2"> Iowa              </option>
+      <option value="5"> Kansas            </option>
+      <option value="9"> Kentucky          </option>
+      <option value="10">Louisiana         </option>
+      <option value="7"> Maine             </option>
+      <option value="8"> Maryland          </option>
+      <option value="7"> Massachusetts     </option>
+      <option value="5"> Michigan          </option>
+      <option value="2"> Minnesota         </option>
+      <option value="6"> Mississippi       </option>
+      <option value="5"> Missouri          </option>
+      <option value="2"> Montana           </option>
+      <option value="2"> Nebraska          </option>
+      <option value="2"> Nevada            </option>
+      <option value="7"> New Hampshire     </option>
+      <option value="8"> New Jersey        </option>
+      <option value="2"> New Mexico        </option>
+      <option value="4"> New York          </option>
+      <option value="NC">North Carolina   </option>
+      <option value="2"> North Dakota      </option>
+      <option value="3"> Ohio              </option>
+      <option value="10">Oklahoma         </option>
+      <option value="3"> Oregon            </option>
+      <option value="PA">Pennsylvania     </option>
+      <option value="7"> Rhode Island      </option>
+      <option value="5"> South Carolina    </option>
+      <option value="2"> South Dakota      </option>
+      <option value="TN">Tennessee        </option>
+      <option value="10">Texas            </option>
+      <option value="2"> Utah              </option>
+      <option value="7"> Vermont           </option>
+      <option value="8"> Virginia          </option>
+      <option value="3"> Washington        </option>
+      <option value="3"> West Virginia     </option>
+      <option value="5"> Wisconsin         </option>
+      <option value="2"> Wyoming           </option>
+      <option value="8"> Washington, DC    </option>
+      <option value="7"> American Samoa           </option>
+      <option value="7"> Guam                     </option>
+      <option value="7"> Northern Mariana Islands </option>
+      <option value="3"> Puerto Rico       </option>
+      <option value="7"> US Virgin Islands        </option>
+      <option value="7"> Wake Islands             </option>
+    </select>
+    
+    <!-- Dividing specific states into multiple areas  -->
+    <select id="GAAreas" name="GAAreas" class="areas hide" required="true">
+      <option selected="selected" disabled="disabled" value="">Specific Area in GA</option>
+      <option value="1">Inside Metro Atlanta     </option>
+      <option value="2">Outside Metro Atlanta     </option>
+    </select>
+
+    <!-- Dividing specific states into multiple areas  -->
+    <select id="NCAreas" name="NCAreas" class="areas hide" required="true">
+      <option selected="selected" disabled="disabled" value="">Specific Area in NC</option>
+      <option value="5">Eastern North Carolina      </option>
+      <option value="1">Western North Carolina      </option>
+    </select>
+
+    <!-- Dividing specific states into multiple areas  -->
+    <select id="PAAreas" name="PAAreas" class="areas hide" required="true">
+      <option selected="selected" disabled="disabled" value="">Specific Area in PA</option>
+      <option value="8">Eastern Pennsylvania     </option>
+      <option value="3">Western Pennsylvania     </option>
+    </select>
+
+    <!-- Dividing Specific States into multiple Areas -->
+    <select id="TNAreas" name="TNAreas" class="areas hide" required="true">
+      <option selected="selected" disabled="disabled" value="">Specific Area in TN</option>
+      <option value="4">Nashville     </option>
+      <option value="9">Memphis, Chattanooga, Knoxville     </option>
+    </select>
+
+
+    <!-- <br> -->
+    <input type="button" value="Go" id="go" class="button">
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>International Applicants</legend>
+      <a href="https://new.sewanee.edu/admission-aid/admission-counselors/tim-neil/"><input type="button" value="Go" class="button"></a>
+  </fieldset>
+  
+  <br>
+  <fieldset id="otherApp">
+    <legend>Other Applicants</legend>
+      <a href="https://new.sewanee.edu/admission-aid/admission-counselors/jeff-heitzenrater/"><input type="button" value="US Transfers" class="button"></a>
+      <a href="https://new.sewanee.edu/admission-aid/admission-counselors/faith-vaughn/"><input type="button" value="HomeSchool" class="button"></a>
+      <a href="https://new.sewanee.edu/admission-aid/admission-counselors/taylor-baird/"><input type="button" value="Deferred Enrollment" class="button"></a>
+
+
+  </fieldset>
+
+
+</div>
+
+
+</body>

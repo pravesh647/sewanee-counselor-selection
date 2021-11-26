@@ -1,0 +1,79 @@
+body{
+  margin:0;
+  font-family:Verdana,sans-serif;
+}
+
+/* Main Div in Selection */
+#stateSelection{
+  width: 400px;
+  margin: 0px auto;
+}
+
+/* Coloring fieldsets */
+#stateSelection fieldset{
+  color: #5e366e;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #5e366e;
+}
+
+/* State Selection Dropdown */
+#studentState{
+  padding: 10px 5px;
+  margin: 5px 0px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 2px solid #5e366e;
+}
+
+/* #studentState option {
+  background-color: #fffbee !important;
+  color: #5e366e !important;
+} */
+
+/* specific areas of state selection dropdown*/
+.areas{
+  padding: 10px 5px;
+  margin: 5px 0px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 2px solid #5e366e;
+}
+
+.hide{
+  display: none;
+}
+
+/* Styling the Buttons */
+
+.button{
+  color: #5e366e;
+  font-weight: bolder;
+  /* font-size: 15px; */
+  border: 2px solid #5e366e;
+  background-color: #fff;
+  padding: 10px 5px;
+  width: 100%;
+  
+}
+
+#otherApp .button{
+  margin-bottom: 15px;
+}
+
+.button:hover{
+  background-color: #5e366e;
+  color: #fff;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  #stateSelection{
+    width: 100%;
+    margin: 30px auto;
+  }
+
+}
